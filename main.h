@@ -1,0 +1,17 @@
+/*
+ * main.h
+ *
+ *  Created on: Sep 2, 2019
+ *      Author: brandon
+ */
+
+#ifndef MAIN_H_
+#define MAIN_H_
+
+class main {
+public:
+	main();
+	virtual ~main();
+};
+
+#endif /* MAIN_H_ */
