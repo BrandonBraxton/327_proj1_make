@@ -8,7 +8,7 @@
 #include "myfunc.h"
 #include <iostream>
 
-std::string func()
+std::string myfunc()
 {
 	return "hello";
 }
