@@ -6,13 +6,16 @@
  */
 
 #include "main.h"
-#include <iostream>	//iostream is where std::cout and std::endl are defined
+//#include <string>
+//#include <iostream>	//iostream is where std::cout and std::endl are defined
 #include "myfunc.h"
+
+//std::string myfunc();
 
 int main()
 {
-	std::string a = myfunc();
-	std::cout<< a <<std::endl;
+	//std::string a = myfunc();
+	std::cout<< myfunc() <<std::endl;
 	return 0;
 
 }

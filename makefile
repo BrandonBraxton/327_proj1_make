@@ -1,6 +1,6 @@
 CFLAGS = -Wall
 
-all: main.o myfunc.o
+myexe: main.o myfunc.o
 	g++ $(CFLAGS) -o myexe main.o myfunc.o 
 
 main.o: main.cpp myfunc.h
